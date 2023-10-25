@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container {
+    padding: 15px;
+    border-radius: 10px;
+    background: #0a0d13;
+}
+
+.container form input {
+    width: 70px;
+    height: 70px;
+    outline: none;
+    border: none;
+    box-shadow: -5px -8px 10px #ffffff1a, 5px 5px 10px #00000033;
+    border-radius: 20px 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.container input[type=text] {
+    text-align: right;
+    padding-right: 10px;
+    width: 98%;
+    border: 2px solid #a39898;
+    border-radius: 10px;
+}
+
+
+form input#evalEl {
+    width: 155px;
+}
+
+form input.red {
+    background: #b37f0e46;
+}
